@@ -31,6 +31,8 @@ jobs:
         run: |
           mkdir _site
           cp index.html _site/index.html
+          cp robots.txt _site/robots.txt
+          cp sitemap.xml _site/sitemap.xml
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:

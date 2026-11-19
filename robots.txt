@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laujulie.github.io/manchester-united-news/sitemap.xml
